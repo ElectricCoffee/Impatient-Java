@@ -9,8 +9,7 @@ public class Main {
 		Scanner scanner = new Scanner(System.in);
 		
 		while (running) {
-			System.out.format("I'm guessing your number is %d\n", 
-					guesser.guess());
+			System.out.format("I'm guessing your number is %d\n", guesser.guess());
 			
 			String response = scanner.nextLine();
 			
